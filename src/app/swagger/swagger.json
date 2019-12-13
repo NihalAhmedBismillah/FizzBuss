@@ -1,0 +1,45 @@
+{
+    "swagger": "2.0",
+    "info": {
+        "version": "1.0.0",
+        "title": "Simple API Fizz Buzz Test",
+        "description": "A REST full OpenAPI Specification for Fizz Buzz test"
+    },
+    "schemes": [
+        "http"
+    ],
+    "host": "localhost:3001",
+    "basePath": "/api/v1",
+    "paths": {
+        "info": "FizzBuzzCount",
+        "/fizzbuzz/{count}": {
+            "get": {
+                "summary": "Gets a user",
+                "description": "Returns a single user for its id.",
+                "parameters": [
+                    {
+                        "name": "count",
+                        "in": "path",
+                        "required": true,
+                        "description": "count",
+                        "type": "number"
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "A list fo fizz buzz",
+                        "schema": {
+                            "required": [
+                                "count"
+                            ],
+                            "type": "array",
+                            "items": {
+                                "properties": {}
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
