@@ -14,4 +14,7 @@ $ npm install
 - `$ npm run test` to start test.
 
 # Swagger Api
-- http://localhost:3001/api-docs/#/
+- For local server
+  - http://localhost:3001/api-docs/#/
+- For app server
+  - https://glacial-mountain-47318.herokuapp.com/api-docs/#/
