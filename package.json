@@ -38,7 +38,7 @@
     "async": "2.6.0",
     "cors": "^2.8.5",
     "ejs": "^2.7.1",
-    "express": "^4.17.1",
+    "express": "^4.17.3",
     "helmet": "^3.21.0",
     "lodash": "^4.17.10",
     "method-override": "^2.3.10",
